@@ -1,6 +1,6 @@
 # Empty Sea Labs mark
 
-A gull perched on a piling in a two-crested swell, under a crescent moon. It also hides the initials M (the swell), T (the piling and wings) and C (the moon).
+A porthole looking out on a gull perched on a piling in a two-crested swell. It also hides the initials M (the swell), T (the piling and wings) and C (the porthole frame, open on the right).
 
 | File | Use |
 | --- | --- |
