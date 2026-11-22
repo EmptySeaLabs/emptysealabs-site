@@ -12,6 +12,7 @@
       "blurb": "Your life on screen. A movie and TV companion for deciding what to watch, remembering what you've seen, and paying only for the streaming you use.",
       "status": { "label": "iPhone · now on the App Store", "href": "https://apps.apple.com/app/id6814292849" },
       "links": [
+        { "style": "app-store", "href": "https://apps.apple.com/app/id6814292849" },
         { "style": "button", "label": "Visit viewography.app", "href": "https://viewography.app" },
         { "style": "text", "label": "What's new", "href": "https://viewography.app/whats-new" }
       ]
