@@ -4,66 +4,83 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Empty Sea Labs</title>
-  <meta name="description" content="Empty Sea Labs is an independent studio making apps for everyday life: Viewography and Holey Golf.">
+  <meta name="description" content="Empty Sea Labs is an independent studio making apps and games for everyday life: Viewography and Holey Golf.">
   <meta name="theme-color" content="#06090c">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
   <main class="page">
-    <header class="mark">
-      <svg class="logo" viewBox="0 0 64 64" width="44" height="44" fill="none" stroke="#5fd4c4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path class="frame" d="M51.7 18.2A24 24 0 1 0 51.7 45.8"/>
-        <path class="sea" d="M11.5 44C13.5 37 17 34 21 34S28 41 32 41S38.5 34 42.5 34S53 36 60 40"/>
-        <path class="gull" d="M32 41V21M22.5 21.5Q27.5 15 32 20Q36.5 15 41.5 21.5"/>
-      </svg>
-      <span class="name">Empty Sea Labs</span>
-    </header>
+    <div class="top">
+      <header class="mark">
+        <svg class="logo" viewBox="0 0 64 64" width="44" height="44" fill="none" stroke="#5fd4c4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path class="frame" d="M51.7 18.2A24 24 0 1 0 51.7 45.8"/>
+          <path class="sea" d="M11.5 44C13.5 37 17 34 21 34S28 41 32 41S38.5 34 42.5 34S53 36 60 40"/>
+          <path class="gull" d="M32 41V21M22.5 21.5Q27.5 15 32 20Q36.5 15 41.5 21.5"/>
+        </svg>
+        <span class="name">Empty Sea Labs</span>
+      </header>
+      <nav class="top-nav" aria-label="Site">
+        <a href="#work">Work</a>
+        <a href="#support">Support</a>
+        <a href="#contact">Say hello</a>
+      </nav>
+    </div>
 
-    <h1>Small apps,<br>made with care.</h1>
-    <p class="lede">Empty Sea Labs is an independent studio building thoughtful apps for everyday life. One person, a lot of testing, and a family that tries everything first.</p>
+    <h1>Small things,<br>made with care.</h1>
+    <p class="lede">Empty Sea Labs is an independent studio making thoughtful things for everyday life. One person, a lot of testing, and a family that tries everything first.</p>
 
-    <section class="apps" aria-labelledby="apps-heading">
-      <h2 id="apps-heading">Apps</h2>
-      <article class="app">
-        <div class="app-mark" aria-hidden="true">
-          <span>VI</span><span class="e"><i></i><i></i><i></i></span><span>W</span>
-        </div>
-        <div class="app-body">
-          <h3>Viewography</h3>
-          <p>Your life on screen. A movie and TV companion for deciding what to watch, remembering what you've seen, and paying only for the streaming you use.</p>
-          <p class="status"><a href="https://apps.apple.com/app/id6814292849">iPhone · now on the App Store</a></p>
-          <div class="links">
-            <a class="button" href="https://viewography.app">Visit viewography.app</a>
-            <a class="text-link" href="https://viewography.app/whats-new">What's new</a>
+    <div class="sea-band"><canvas aria-hidden="true"></canvas></div>
+
+    <div class="work" id="work">
+      <!-- catalog:start -->
+      <nav class="filters" aria-label="Filter by category">
+        <a class="chip" href="#work" data-filter="all" aria-current="true">All <span>2</span></a>
+        <a class="chip" href="#apps" data-filter="apps">Apps <span>1</span></a>
+        <a class="chip" href="#games" data-filter="games">Games <span>1</span></a>
+      </nav>
+      <section class="category" id="apps" data-category="apps" aria-labelledby="apps-heading">
+        <h2 id="apps-heading">Apps</h2>
+        <article class="item" style="--accent:#ff7f2a">
+          <div class="item-mark" aria-hidden="true"><span>VI</span><span class="e"><i></i><i></i><i></i></span><span>W</span></div>
+          <div class="item-body">
+            <h3>Viewography</h3>
+            <p>Your life on screen. A movie and TV companion for deciding what to watch, remembering what you've seen, and paying only for the streaming you use.</p>
+            <p class="status"><a href="https://apps.apple.com/app/id6814292849">iPhone · now on the App Store</a></p>
+            <div class="links">
+              <a class="button" href="https://viewography.app">Visit viewography.app</a>
+              <a class="text-link" href="https://viewography.app/whats-new">What's new</a>
+            </div>
           </div>
-        </div>
-      </article>
-      <article class="app">
-        <div class="app-mark" aria-hidden="true">
-          <img src="/holeygolf/icon.png" width="84" height="84" alt="">
-        </div>
-        <div class="app-body">
-          <h3>Holey Golf</h3>
-          <p>You're a hungry hole on a golf course. Swallow everything from golf balls to the clubhouse, grow, and play a round one hole at a time.</p>
-          <p class="status"><a href="https://apps.apple.com/app/id6835056448">iPhone · now on the App Store</a></p>
-          <div class="links">
-            <a class="store-badge" href="https://apps.apple.com/app/id6835056448"><img src="/badges/download-on-the-app-store.svg" width="132" height="44" alt="Download on the App Store"></a>
-            <a class="text-link" href="/holeygolf/support">Support</a>
-            <a class="text-link" href="/holeygolf/privacy">Privacy</a>
+        </article>
+      </section>
+      <section class="category" id="games" data-category="games" aria-labelledby="games-heading">
+        <h2 id="games-heading">Games</h2>
+        <article class="item" style="--accent:#7ddc6a">
+          <div class="item-mark" aria-hidden="true"><img src="/holeygolf/icon.png" width="84" height="84" alt=""></div>
+          <div class="item-body">
+            <h3>Holey Golf</h3>
+            <p>You're a hungry hole on a golf course. Swallow everything from golf balls to the clubhouse, grow, and play a round one hole at a time.</p>
+            <p class="status"><a href="https://apps.apple.com/app/id6835056448">iPhone · now on the App Store</a></p>
+            <div class="links">
+              <a class="store-badge" href="https://apps.apple.com/app/id6835056448"><img src="/badges/download-on-the-app-store.svg" width="132" height="44" alt="Download on the App Store"></a>
+              <a class="text-link" href="/holeygolf/support">Support</a>
+              <a class="text-link" href="/holeygolf/privacy">Privacy</a>
+            </div>
           </div>
-        </div>
-      </article>
-    </section>
+        </article>
+      </section>
+      <!-- catalog:end -->
+    </div>
 
-    <section class="support" aria-labelledby="support-heading">
+    <section class="support" id="support" aria-labelledby="support-heading">
       <h2 id="support-heading">Support the studio</h2>
-      <p>Empty Sea Labs is made by one person. If our apps help you, you can leave a tip.</p>
+      <p>Empty Sea Labs is made by one person. If what we make helps you, you can leave a tip.</p>
       <a class="button" href="https://buy.stripe.com/cNiaEZevT7lt27FenM4sE02" target="_blank" rel="noopener">Leave a tip <span aria-hidden="true">&nbsp;↗</span></a>
     </section>
 
-    <section class="contact" aria-labelledby="contact-heading">
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
       <h2 id="contact-heading">Say hello</h2>
       <p>Questions, ideas or bugs: <a href="mailto:hello@emptysealabs.com">hello@emptysealabs.com</a></p>
     </section>
@@ -73,5 +90,6 @@
     <span>© 2026 Empty Sea Labs</span>
     <nav><a href="/privacy.html">Privacy</a> <a class="tip-button" href="https://buy.stripe.com/cNiaEZevT7lt27FenM4sE02" target="_blank" rel="noopener">Tip jar <span aria-hidden="true">↗</span></a></nav>
   </footer>
+  <script src="site.js?v=6" defer></script>
 </body>
 </html>
