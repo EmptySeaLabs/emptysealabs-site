@@ -41,8 +41,7 @@ def item(it):
     else:
         mark = f'<span>{text(it["name"][:1])}</span>'
     accent = f' style="--accent:{escape(it["accent"])}"' if it.get("accent") else ""
-    slug = re.sub(r"[^a-z0-9]+", "-", it["name"].lower()).strip("-")
-    out = [f'        <article class="item" id="{slug}"{accent}>',
+    out = [f'        <article class="item"{accent}>',
            f'          <div class="item-mark" aria-hidden="true">{mark}</div>',
            '          <div class="item-body">',
            f'            <h3>{text(it["name"])}</h3>',
