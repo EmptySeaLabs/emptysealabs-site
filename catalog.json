@@ -1,0 +1,34 @@
+{
+  "categories": [
+    { "id": "apps", "name": "Apps" },
+    { "id": "games", "name": "Games" }
+  ],
+  "items": [
+    {
+      "category": "apps",
+      "name": "Viewography",
+      "accent": "#ff7f2a",
+      "markHtml": "<span>VI</span><span class=\"e\"><i></i><i></i><i></i></span><span>W</span>",
+      "blurb": "Your life on screen. A movie and TV companion for deciding what to watch, remembering what you've seen, and paying only for the streaming you use.",
+      "status": { "label": "iPhone · now on the App Store" },
+      "links": [
+        { "style": "app-store", "href": "https://apps.apple.com/app/id6814292849" },
+        { "style": "button", "label": "Visit viewography.app", "href": "https://viewography.app" },
+        { "style": "text", "label": "What's new", "href": "https://viewography.app/whats-new" }
+      ]
+    },
+    {
+      "category": "games",
+      "name": "Holey Golf",
+      "accent": "#7ddc6a",
+      "icon": "/holeygolf/icon.png",
+      "blurb": "You're a hungry hole on a golf course. Swallow everything from golf balls to the clubhouse, grow, and play a round one hole at a time.",
+      "status": { "label": "iPhone · now on the App Store" },
+      "links": [
+        { "style": "app-store", "href": "https://apps.apple.com/app/id6835056448" },
+        { "style": "text", "label": "Support", "href": "/holeygolf/support" },
+        { "style": "text", "label": "Privacy", "href": "/holeygolf/privacy" }
+      ]
+    }
+  ]
+}
