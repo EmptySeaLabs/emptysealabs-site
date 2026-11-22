@@ -44,3 +44,8 @@ footer a{color:var(--muted)}
 .store-badge{display:inline-flex;border:0;border-radius:9px}
 .store-badge img{display:block;width:auto;height:44px}
 @media(max-width:600px){.app{display:grid;grid-template-columns:auto 1fr;gap:0 16px;align-items:center}.app-mark{width:64px;height:64px;border-radius:16px;font-size:1.05rem}.app-mark img{border-radius:15px}.app-body{display:contents}.app-body h3{margin:0}.app-body p,.app-body .links{grid-column:1/-1}.app-body h3+p{margin-top:16px}.app+.app{margin-top:24px}}
+footer nav{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+footer a.tip-button,.tip-button{display:inline-flex;align-items:center;gap:6px;min-height:36px;margin-left:12px;padding:0 16px;border:1.5px solid var(--sea);border-radius:999px;color:var(--sea);font-weight:700}
+footer a.tip-button:hover{background:var(--sea);color:#04201d;border-color:var(--sea)}
+.support{margin-top:64px}
+.support p{color:#c9ccd2;line-height:1.6;margin:0 0 18px}
